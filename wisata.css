@@ -1,0 +1,68 @@
+.artikel h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.artikel h5 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.artikel {
+  padding: 20px; 
+  width: 100%;
+}
+
+.artikel img {
+  float: left;
+  border: 1px ;
+  border-radius: 5px;
+  margin: 10px 20px 20px 0px;
+
+  width: 30%;
+  height: auto;
+}
+
+.artikel p {
+  text-indent: 30px;
+}
+
+
+@media screen and (max-width:1281px) {
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .artikel img {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .artikel img {
+    float: left;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+  }
+}
+
+
