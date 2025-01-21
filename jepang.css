@@ -38,22 +38,22 @@
   text-indent: 30px;
 }
 
-#visitors {
+.visitors {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 50%;
 }
 
-#visitors td, #visitors th {
+.visitors td, #visitors th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#visitors tr:nth-child(even){background-color: #f2f2f2;}
+.visitors tr:nth-child(even){background-color: #f2f2f2;}
 
-#visitors tr:hover {background-color: #ddd;}
+.visitors tr:hover {background-color: #ddd;}
 
-#visitors th {
+.visitors th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -85,7 +85,7 @@
     width: 100%;
     margin: 10px 0px 20px 0px;
   }
-  #visitors {
+  .visitors {
   width: 75%;
   }
 }
